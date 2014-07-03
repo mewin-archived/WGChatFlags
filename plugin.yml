@@ -1,5 +1,0 @@
-main: de.mewin.wgcf.WGChatFlagsPlugin
-name: WGChatFlags
-authors: [ mewin ]
-version: 0.1
-depend: [ WGCustomFlags, WorldGuard ]

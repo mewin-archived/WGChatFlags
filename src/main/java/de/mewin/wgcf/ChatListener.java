@@ -77,7 +77,7 @@ public class ChatListener implements Listener
                     .replaceAll("\\{y\\}", String.valueOf(e.getPlayer().getLocation().getBlockY()))
                     .replaceAll("\\{z\\}", String.valueOf(e.getPlayer().getLocation().getBlockZ()))
                     .replaceAll("\\{hp\\}", String.valueOf(e.getPlayer().getHealth()))
-                    .replaceAll("\\{hpbar\\}", generateHPBar(e.getPlayer().getHealth()))
+                    .replaceAll("\\{hpbar\\}", generateHPBar((int) e.getPlayer().getHealth()))
                     .replaceAll("\\{balance\\}", getBalance(e.getPlayer().getName())));
         }
     }
